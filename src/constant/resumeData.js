@@ -1,46 +1,48 @@
 const personInfo = {
-	name: "周超",
-	phoneNumber: "13409890272",
-	email: "1178605721@qq.com",
-	birthday: "1998-08-17",
-	city: "湖北省黄冈市",
-	expect: "Java开发工程师",
+	name: "byeyang",
+	phoneNumber: "13538774375",
+	email: "2662119796@qq.com",
+	birthday: "1998-07-13",
+	city: "广州",
+	expect: "python工程师",
 	workTime: Math.round((new Date() - new Date("2020-12-01")) / 1000 / 60 / 60 / 24 / 365) + "年工作经验",
 	education: {
-		timestamp: "2017/09/01 - 2021/06/30",
-		university: "湖北经济学院",
-		specialty: "电子信息工程专业",
-		level: "本科",
-		certificates: ["大学英语四级"]
+		timestamp: "2018/09/01 - 2020/06/30",
+		university: "计算机学院",
+		specialty: "网络工程",
+		level: "本科"
 	}
 };
 
 const oscResume = {
-	timestamp: "2023/04/24 - 至今",
-	projectName: "湖北电信告警子中心系统",
-	projectDesc: "系统基于采集器程序从华为、中兴、烽火等网管处获取设备异常信息，先经过 Flink 程序对告警数据进行标准化、割接等规则匹配，对其进行打标，再对数据进行预处理，符合派单条件的调用第三方综调系统生成工单，送至运营岗位处理。",
+	timestamp: "2020/10 - 2023/03",
+	projectName: "CG任务系统",
+	projectDesc: "CG影视动画制作流程中的版本、流程、数据控制系统。",
 	projectDuty: [
-		"实现 Kettle 对网元的设备信息、端口信息、板卡信息、电路信息等资源文件进行解析入库；",
-		"通过 MQ + nacos配置文件的形式实现告警数据实时转发功能，优化MQ通讯方式的告警采集程序；",
-		"实现告警数据的入库情况监控，监测动环网管连接的心跳情况自动任务，生成各网管告警基线数据；",
-		"基于 PromQL 实现从 Promethues 获取容器 POD 的各项核心指标信息完成微服务监控，基于指标阈值生成软告警。"
+		"1.艺术家登录后按照艺术家选择项目，对应阶段和状态，展示对应的任务资产；",
+		"艺术家选择对应任务完成工作后，可升版保存、提交审核、通过自检后发布文件等；",
+		"对接CGTeamWork接口完成任务信息显示，任务分配和审核结果；",
+		"艺术家根据不同项目资产阶段对应相关智能检查项，根据资产情况可选择自动修复问题",
+		"该系统嵌入在CG制作软件中，对接CGTeamwork接口完成二次开发"
 	],
 	technology: [
-		"Spring Cloud Alibaba", "Spring Boot", "MyBatisPlus", "PostgreSQL", "Redis", "Kafka", "RocketMQ", "XXL-JOB", "Zeebe"
+		"MYSQL", "Pyside"
 	],
-	company: "中通服软件科技有限公司（武汉）",
-	position: "Java开发工程师",
-	business: "支撑湖北省内告警子中心业务系统，涵盖告警采集、标准化、预处理、派单等过程。",
+	company: "广州金川文化有限公司",
+	position: "Python插件开发工程师",
+	business: "动画、电影创作出品",
 	jobContent: [
-		"告警数据采集 Kettle 任务开发，功能业务代码开发，对外接口开发与联调工作；",
-		"告警相关流程编排场景设计与功能开发，优化告警 Kafka 和 RocketMQ 通信方式采集与解析程序；",
-		"解决生产环境的 BUG，优化系统代码，完成项目版本发布和功能验证工作。"
+		"3D制作流水线中的内容制作的各项工具的独立开发、系统二次开发；",
+		"充分了解各环节开发中的需求和问题，完成开发，测试，发布；",
+		"根据项目开发中策划和项目的变化，不断地维护系统流程、适配规范。"，
+		"为创建和优化制作开发的流程和规范提供技术性支持；",
+		"维护CG制作中各环节数据能够顺利流通。"		
 	],
-	achievement: "告警设备数据采集入库，动环专业获取告警数据接口开发，告警延时入库监控、动环采集器心跳异常监控，集团两级协同告警上报与网元数据统计上报，每小时告警统计并根据基线值和阈值上下限生成软告警。"
+	achievement: "负责CG任务系统的新功能开发，优化调整，修复BUG修复流程缺陷，不断适配新项目保证制作流程运行过程没有规则上的漏洞。"
 };
 
 const enbrandsResume = {
-	timestamp: "2022/03/17 - 2022/09/05",
+	timestamp: "2019/11 - 2020/09",
 	projectName: "云积分电商会员通系统",
 	projectDesc: "分布式微服务项目，实现了品牌CRM系统与电商平台线上线下会员绑定、解绑，积分、等级变更同步，会员订单数据推送，商品同步等业务，提供内部商家后台管理系统和电商平台内嵌小程序的接口。",
 	projectDuty: [
@@ -52,66 +54,44 @@ const enbrandsResume = {
 	technology: [
 		"Spring Cloud Alibaba", "Spring Boot", "MyBatis", "MySQL", "Redis", "Kafka", "XXL-JOB"
 	],
-	company: "深圳市云积分科技有限公司（武汉） ",
-	position: "Java开发工程师",
-	business: "各大电商平台（天猫、京东、唯品会、抖音）与品牌 CRM 会员通对接，实现双方系统的会员积分、等级、订单数据以及商品数据打通，维护商家后台管理系统和小程序的会员相关接口，为商家提供定制化的互动玩法。",
+	company: "广州阿戴普科技有限公司（实习）） ",
+	position: "大数据团队（数据研究员）",
+	business: "对接医药单位，提供技术性支持，开展创新工作",
 	jobContent: [
-		"设计品牌会员通对接方案，完成业务代码开发、接口联调以及项目版本发布工作；",
-		"协助测试完成接口测试自动化的环境搭建和脚本开发，参与测试用例评审；",
-		"协助产品经理完成功能设计和版本迭代，帮助技术支持快速解决品牌方线上问题。"
+		"推荐系统文献查找及归纳（科研方向)；",
+		"通过Scrapy、Selenium、Xpath等组件编写爬虫程序，爬取目标网站医药数据，对数据处理，清洗入库分析；",
+		"通过Flask独立搭建简易平台；"，
+		"通过NLTK优化电商文本数据分类预测算法。"
 	],
-	achievement: "基本完成云积分与有赞数据中心对接天猫会员通（方案对接、代码开发和联调），完成唯品会会员通接入珀莱雅品牌和抖音会员通接入悦诗风吟美妆旗舰店品牌，协助完成欧莱雅旗下品牌（3CE、LRP）会员通接入。解决联合利华、欧莱雅、美素佳儿、美赞臣等多个品牌会员通线上数据问题。"
-};
-
-const ktccResume = {
-	timestamp: "2020/12/01 - 2021/12/28",
-	projectName: "康博嘉云诊所医疗 SaaS 系统",
-	projectDesc: "单体架构的医疗 SaaS 系统，面向国内的民营诊所，包含病人线下看病的全部流程（预约、预诊、病历书写、医嘱开立、收费、发药、执行等）。",
-	projectDuty: [
-		"负责病历文书、医嘱开立、医嘱执行等模块的新功能开发与核心代码维护；",
-		"参与外治处方、视力筛查、验光单等功能的功能评审、代码开发以及前后端联调工作；",
-		"完成医嘱相关的统计分析和处方单据的报表 SQL，解决诊所线上医嘱相关问题。"
-	],
-	technology: [
-		"Spring Boot", "Spring MVC", "MyBatis", "PostgreSQL", "Redis", "Kafka", "FastDFS", "jQuery", "Vue"
-	],
-	company: "康博嘉云（北京）信息科技有限公司武汉分公司",
-	position: "Java开发工程师",
-	business: "面向国内全科诊所和中医诊所的民营医疗 SaaS 系统，为诊所提供预约、看诊（病历、医嘱）、收费、发药、医嘱执行和库房进销存的全流程服务。",
-	jobContent: [
-		"根据产品需求文档完成看诊（病历、医嘱）模块的系统功能设计和表结构设计；",
-		"负责 SaaS 系统业务代码编写，与前端工程师进行功能联调，配合测试进行问题修复；",
-		"完成开放平台看诊相关模块的接口开发和维护，编写相应的接口文档。"
-	],
-	achievement: "设计并完成PC端病历附件扫码上传功能，完成九种外治处方、视力筛查和验光单等新功能开发，协助前端工程师完成微信公众号医生端界面优化和产品重构。"
+	achievement: "基本完成各项数据收集和分析问题。"
 };
 
 
 const specialTalent = [
 	{
-		percentage: 100, status: 'success', text: '熟练掌握 Java 集合、反射、并发、IO、多线程等技术',
+		percentage: 80, status: 'success', text: '掌握使用Git、GitHub等版本管理工具',
 	},
 	{
-		percentage: 100, status: 'success', text: '熟练掌握 Spring、Spring MVC、Spring Boot、MyBatis、Spring Cloud 等主流技术框架',
+		percentage: 80, status: 'success', text: '熟练掌握scrapy等主流技术框架',
 	},
 	{
-		percentage: 100, status: 'success', text: '熟练掌握 MySQL 数据库以及锁、索引和事务相关原理，熟悉 MySQL 调优',
+		percentage: 80, status: 'success', text: '了解使用Linux平台；Python各类第三方库；MYSQL,Redis；',
 	},
 	{
-		percentage: 75, status: '', text: '熟悉 Redis 缓存数据库的使用，掌握 Redis 的数据结构、分布式锁的原理以及 Redis 的应用场景',
+		percentage: 80, status: '', text: '了解使用NLTK进行算法优化；',
 	},
 	{
-		percentage: 75, status: '', text: '熟悉 Kafka 消息队列、XXL-JOB 分布式任务调度框架、Easy Excel 等中间件技术',
+		percentage: 80, status: '', text: '了解使用机器学习，深度学习算法基础，神经网络等',
 	},
 	{
-		percentage: 75, status: '', text: '熟悉类加载机制、内存模型、垃圾回收机制、垃圾回收算法等 JVM 基本原理，了解 JVM 调优',
+		percentage: 90, status: '', text: '熟悉pyqt、pyside等window桌面组件',
 	},
 	{
-		percentage: 50, status: 'warning', text: '了解常用的设计模式，有实际的项目应用经验'
+		percentage: 90, status: 'warning', text: 'DCC插件开发经验'
 	},
 ];
 
-const summary = "熟悉 SaaS 系统、分布式电商会员系统和告警子中心运营系统研发，有较强的责任心，具备良好的沟通能力和团队协作精神。";
+const summary = "具备较强的学习与适应环境能力和良好的沟通能力以及应变能力和承压能力；具备良好的全局观念，有良好的自学能力并热爱学习，具有较强的团队精神和团队协作能力；开放型、稳重型，并具有宽容精神和积极乐观的性格；";
 
 const resumes = [oscResume, enbrandsResume, ktccResume];
 
