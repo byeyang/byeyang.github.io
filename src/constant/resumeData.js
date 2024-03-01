@@ -60,7 +60,7 @@ const enbrandsResume = {
 	jobContent: [
 		"推荐系统文献查找及归纳（科研方向)；",
 		"通过Scrapy、Selenium、Xpath等组件编写爬虫程序，爬取目标网站医药数据，对数据处理，清洗入库分析；",
-		"通过Flask独立搭建简易平台；"，
+		"通过Flask独立搭建简易平台；",
 		"通过NLTK优化电商文本数据分类预测算法。"
 	],
 	achievement: "基本完成各项数据收集和分析问题。"
