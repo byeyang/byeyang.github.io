@@ -22,7 +22,7 @@ const markdownPathPrefix = "/static/project/";
 const markdownPathSuffix = ".md";
 module.exports = {
   metaInfo: {
-    title: "周超 | 项目",
+    title: "byeyang | 项目",
   },
   components: {
     markdownhtml: httpVueLoader("/src/components/markdownHtml.vue"),
