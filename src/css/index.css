@@ -1,0 +1,64 @@
+@import 'resume.css';
+@import 'note.css';
+@import 'project.css';
+
+body {
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  margin: 0;
+}
+
+
+/* <375px */
+/* @media screen and (max-width:375px) {
+  #app {
+    width: 100%;
+  }
+} */
+
+/* >=375px and <450px */
+/* @media screen and (min-width:375px) and (max-width:450) {
+  #app {
+    width: 100%;
+  }
+} */
+
+/* <600px */
+@media screen and (max-width:600px) {
+  #app {
+    width: 100%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+}
+
+/* >=600px and <900px */
+@media screen and (min-width:600px) and (max-width:900) {
+  #app {
+    /* width: 100%; */
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+/* >=900px */
+@media screen and (min-width:900px) {
+  #app {
+    margin-left: 18%;
+    margin-right: 18%;
+    /* width: 100%; */
+  }
+}
+
+.sub-indent-30 {
+  padding-inline-start: 30px;
+}
+
+/* 反转文字 */
+.reverse-word {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+.trim-underline {
+  text-decoration: none;
+}
