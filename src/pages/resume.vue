@@ -1,7 +1,7 @@
 <template>
 <div class="resume-box">
   <div id="myWechatImage">
-    <el-image src="/static/wechat-qrcode.jpg" fit="cover" class="wechat-image" :preview-src-list="wechatImage"></el-image>
+    <el-image src="/static/qrcode.jpg" fit="cover" class="wechat-image" :preview-src-list="wechatImage"></el-image>
   </div>
 
   <div id="exportResume">
@@ -149,7 +149,7 @@
 module.exports = {
   data() {
     return {
-      wechatImage: ["/static/wechat.jpg"],
+      wechatImage: ["/static/wechat_code.jpg"],
     };
   },
   methods: {},
