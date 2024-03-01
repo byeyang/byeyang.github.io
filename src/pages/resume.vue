@@ -18,7 +18,7 @@
       <el-timeline style="text-align:center;font-size: 16px;">
         <el-timeline-item>
           <el-card>
-            <h4>周超</h4>
+            <h4>byeyang</h4>
             <i class="el-icon-phone-outline "><a style="text-decoration: none;color: #303133;" :href="'tel:+86'+resumeData.personInfo.phoneNumber">
                 <span>&nbsp;{{resumeData.personInfo.phoneNumber}}&nbsp;
                 </span></a></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
