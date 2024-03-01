@@ -22,7 +22,7 @@ const markdownPathPrefix = "/static/note/";
 const markdownPathSuffix = ".md";
 module.exports = {
   metaInfo: {
-    title: "周超 | 笔记",
+    title: "byeyang | 笔记",
   },
   components: {
     markdownhtml: httpVueLoader("/src/components/markdownHtml.vue"),
