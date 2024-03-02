@@ -93,6 +93,6 @@ const specialTalent = [
 
 const summary = "具备较强的学习与适应环境能力和良好的沟通能力以及应变能力和承压能力；具备良好的全局观念，有良好的自学能力并热爱学习，具有较强的团队精神和团队协作能力；开放型、稳重型，并具有宽容精神和积极乐观的性格；";
 
-const resumes = [oscResume, enbrandsResume, ktccResume];
+const resumes = [oscResume, enbrandsResume];
 
 export { resumes, specialTalent, personInfo, summary };
