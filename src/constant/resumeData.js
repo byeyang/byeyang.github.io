@@ -10,24 +10,12 @@ const personInfo = {
 		timestamp: "2018/09/01 - 2020/06/30",
 		university: "计算机学院",
 		specialty: "网络工程（大数据方向）",
-		level: "全日制本科"
+		level: "全日制本科",
+		desc:"1、院校级一等奖学金; 2、担任校外实践校园合伙人、班级委员、电影协会外联部长、计算机协会干事; 3、具备较扎实专业知识(Python，Scrapy爬虫框架，ETL工具Kettle、机器学习、数据挖掘、NLP等)"
 	}
 };
 
 const oscResume = {
-	timestamp: "2020/10 - 2023/03",
-	projectName: "CG任务系统",
-	projectDesc: "CG影视动画制作流程中的版本、流程、数据控制系统。",
-	projectDuty: [
-		"1.艺术家登录后按照艺术家选择项目，对应阶段和状态，展示对应的任务资产；",
-		"艺术家选择对应任务完成工作后，可升版保存、提交审核、通过自检后发布文件等；",
-		"对接CGTeamWork接口完成任务信息显示，任务分配和审核结果；",
-		"艺术家根据不同项目资产阶段对应相关智能检查项，根据资产情况可选择自动修复问题",
-		"该系统嵌入在CG制作软件中，对接CGTeamwork接口完成二次开发"
-	],
-	technology: [
-		"MYSQL", "Pyside"
-	],
 	timestamp: "2020/10 - 2023/03",
 	projectName: "CG插件",
 	projectDesc: "CG软件内部插件、后台批处理插件",
@@ -54,6 +42,19 @@ const oscResume = {
 };
 
 const enbrandsResume = {
+		timestamp: "2020/10 - 2023/03",
+	projectName: "CG任务系统",
+	projectDesc: "CG影视动画制作流程中的版本、流程、数据控制系统。",
+	projectDuty: [
+		"1.艺术家登录后按照艺术家选择项目，对应阶段和状态，展示对应的任务资产；",
+		"艺术家选择对应任务完成工作后，可升版保存、提交审核、通过自检后发布文件等；",
+		"对接CGTeamWork接口完成任务信息显示，任务分配和审核结果；",
+		"艺术家根据不同项目资产阶段对应相关智能检查项，根据资产情况可选择自动修复问题",
+		"该系统嵌入在CG制作软件中，对接CGTeamwork接口完成二次开发"
+	],
+	technology: [
+		"MYSQL", "Pyside"
+	],
 	company: "广州阿戴普科技有限公司（实习）） ",
 	position: "大数据团队（数据研究员）",
 	business: "对接医药单位，提供技术性支持，开展创新工作",
