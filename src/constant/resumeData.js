@@ -9,8 +9,8 @@ const personInfo = {
 	education: {
 		timestamp: "2018/09/01 - 2020/06/30",
 		university: "计算机学院",
-		specialty: "网络工程",
-		level: "本科"
+		specialty: "网络工程（大数据方向）",
+		level: "全日制本科"
 	}
 };
 
@@ -28,6 +28,18 @@ const oscResume = {
 	technology: [
 		"MYSQL", "Pyside"
 	],
+	timestamp: "2020/10 - 2023/03",
+	projectName: "CG插件",
+	projectDesc: "CG软件内部插件、后台批处理插件",
+	projectDuty: [
+		"1.独立开发内部插件包括贴图管理器、模型代理流程工具等；",
+		"2.独立开发工具包括NUKE批量本地后台渲染工具、图片处理工具、Max导出工具、wav音频转换工具、自定义文件提取工具、后台流程资产更新、资产效果工具等；",
+		"3.过程中不断使用新的第三方库解决实际问题，",
+		"类似图像处理工具会使用OpenCV进行处理，在不改变图像质量前提下缩小文件大小。"
+	],
+	technology: [
+		"opencv", "Pyside","maya","nuke"
+	],
 	company: "广州金川文化有限公司",
 	position: "Python插件开发工程师",
 	business: "动画、电影创作出品",
@@ -42,18 +54,6 @@ const oscResume = {
 };
 
 const enbrandsResume = {
-	timestamp: "2019/11 - 2020/09",
-	projectName: "云积分电商会员通系统",
-	projectDesc: "分布式微服务项目，实现了品牌CRM系统与电商平台线上线下会员绑定、解绑，积分、等级变更同步，会员订单数据推送，商品同步等业务，提供内部商家后台管理系统和电商平台内嵌小程序的接口。",
-	projectDuty: [
-		"天猫、唯品会、抖音、京东会员通平台标准化 spi 接口开发，积分等级调整业务的重试与最终一致性保障代码开发；",
-		"唯品会、抖音平台会员通品牌数据中心对接，平台-云积分-品牌全链路联调，支撑项目上线；",
-		"完成 gateway 网关服务阿里全域会员通、京东会员通和抖音会员通接口路由与新老服务流量分发功能；",
-		"结合日志文件排查新老会员通服务线上问题，优化会员通项目业务代码。"
-	],
-	technology: [
-		"Spring Cloud Alibaba", "Spring Boot", "MyBatis", "MySQL", "Redis", "Kafka", "XXL-JOB"
-	],
 	company: "广州阿戴普科技有限公司（实习）） ",
 	position: "大数据团队（数据研究员）",
 	business: "对接医药单位，提供技术性支持，开展创新工作",
@@ -63,7 +63,7 @@ const enbrandsResume = {
 		"通过Flask独立搭建简易平台；",
 		"通过NLTK优化电商文本数据分类预测算法。"
 	],
-	achievement: "基本完成各项数据收集和分析问题。"
+	achievement: "完成各项数据收集和分析问题。"
 };
 
 
@@ -72,22 +72,19 @@ const specialTalent = [
 		percentage: 80, status: 'success', text: '掌握使用Git、GitHub等版本管理工具',
 	},
 	{
-		percentage: 80, status: 'success', text: '熟练掌握scrapy等主流技术框架',
+		percentage: 80, status: 'success', text: '熟练掌握scrapy，kettle，Selenium等主流技术框架、工具、组件，熟练掌握数据清洗、数据预处理等',
 	},
 	{
-		percentage: 80, status: 'success', text: '了解使用Linux平台；Python各类第三方库；MYSQL,Redis；',
+		percentage: 80, status: 'success', text: '了解使用Linux平台；Python各类第三方库；数据库MYSQL,Redis等；',
 	},
 	{
-		percentage: 80, status: '', text: '了解使用NLTK进行算法优化；',
+		percentage: 80, status: '', text: '了解使用神经网络建模训练流程等，善于解决实际问题。',
 	},
 	{
 		percentage: 80, status: '', text: '了解使用机器学习，深度学习算法基础，神经网络等',
 	},
 	{
-		percentage: 90, status: '', text: '熟悉pyqt、pyside等window桌面组件',
-	},
-	{
-		percentage: 90, status: 'warning', text: 'DCC插件开发经验'
+		percentage: 90, status: '', text: '熟悉pyqt、pyside等window桌面组件、DCC插件开发经验',
 	},
 ];
 
