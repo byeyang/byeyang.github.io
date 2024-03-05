@@ -120,7 +120,7 @@
           <el-card>
             <h4>{{resumeData.personInfo.education.university}} - {{resumeData.personInfo.education.specialty}} - {{resumeData.personInfo.education.level}}</h4>
             <p>
-              <el-tag type="success" size="small" v-for="certificate in resumeData.personInfo.education.certificates" :key="certificate" >{{certificate}}</el-tag>
+              <p>{{resumeData.personInfo.education.certificates}}</p>
             </p>
           </el-card>
         </el-timeline-item>
