@@ -76,7 +76,7 @@ const specialTalent = [
 		percentage: 80, status: 'success', text: '熟练掌握scrapy，kettle，Selenium等主流技术框架、工具、组件，熟练掌握数据清洗、数据预处理等',
 	},
 	{
-		percentage: 80, status: 'success', text: '了解使用Linux平台；Python各类第三方库；数据库MYSQL,Redis等；',
+		percentage: 80, status: 'success', text: '了解使用Linux平台；Python各类第三方库；数据库MYSQL等；',
 	},
 	{
 		percentage: 80, status: '', text: '了解使用神经网络建模训练流程等，善于解决实际问题。',
