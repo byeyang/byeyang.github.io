@@ -11,7 +11,9 @@ const personInfo = {
 		university: "计算机学院",
 		specialty: "网络工程（大数据方向）",
 		level: "全日制本科",
-		certificates:"1、院校级一等奖学金; 2、担任校外实践校园合伙人、班级委员、电影协会外联部长、计算机协会干事; 3、具备较扎实专业知识(Python，Scrapy爬虫框架，ETL工具Kettle、机器学习、数据挖掘、NLP等)"
+		certificates:"1、院校级一等奖学金; \
+			      2、担任校外实践校园合伙人、班级委员、电影协会外联部长、计算机协会干事; \
+			      3、具备较扎实专业知识(Python，Scrapy爬虫框架，ETL工具Kettle、机器学习、数据挖掘、NLP等)"
 	}
 };
 
@@ -54,7 +56,7 @@ const enbrandsResume = {
 	technology: [
 		"Qt 开发", "Python 编程语言","Mel 语言","数据结构","算法设计"
 	],
-	company: "广州阿戴普科技有限公司（实习）） ",
+	company: "广州阿戴普科技有限公司（实习） ",
 	position: "大数据团队（数据研究员）",
 	business: "对接医药单位，提供技术性支持，开展创新工作",
 	jobContent: [
@@ -73,13 +75,13 @@ const specialTalent = [
 		percentage: 100, status: 'success', text: '机器学习技术：熟练掌握监督学习、无监督学习、强化学习等机器学习算法，具备模型调优和性能评估能力;',
 	},
 	{
-		percentage: 100, status: '', text: '数据处理与分析：熟悉数据处理流程，包括数据清洗、特征工程、数据可视化等，能够运用 Pandas、NumPy 等工具进行高效数据处理;',
+		percentage: 100, status: 'success', text: '数据处理与分析：熟悉数据处理流程，包括数据清洗、特征工程、数据可视化等，能够运用 Pandas、NumPy 等工具进行高效数据处理;',
 	},
 	{
-		percentage: 100, status: '', text: '自然语言处理：了解 NLP 基本原理和常用技术，如文本分类、情感分析、命名实体识别等，具备相关项目实践经验;',
+		percentage: 100, status: 'success', text: '自然语言处理：了解 NLP 基本原理和常用技术，如文本分类、情感分析、命名实体识别等，具备相关项目实践经验;',
 	},
 	{
-		percentage: 100, status: '', text: '软件开发与工具：熟练使用 Git 进行版本控制，熟悉 Linux 操作系统，能够使用 Docker 进行容器化部署。',
+		percentage: 100, status: 'success', text: '软件开发与工具：熟练使用 Git 进行版本控制，熟悉 Linux 操作系统，能够使用 Docker 进行容器化部署。',
 	},
 ];
 
