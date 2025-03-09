@@ -103,7 +103,7 @@ const specialTalent = [
 		percentage: 100, status: 'success', text: '自然语言处理：了解 NLP 基本原理和常用技术，如文本分类、情感分析、命名实体识别等，具备相关项目实践经验;',
 	},
 	{
-		percentage: 100, status: 'success', text: '软件开发与工具：熟练使用 Git 进行版本控制，熟悉 Linux 操作系统，熟悉使用 Docker 容器化部署。',
+		percentage: 100, status: 'success', text: '软件开发与工具：熟练使用 Git 进行版本控制，熟悉 Linux 操作系统，熟悉使用 Docker 容器化部署。'
 	},
 ];
 
