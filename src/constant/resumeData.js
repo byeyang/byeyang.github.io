@@ -109,6 +109,6 @@ const specialTalent = [
 
 const summary = "致力AI方向发展";
 
-const resumes = [oscResume, enbrandsResume，oscResume2];
+const resumes = [oscResume, enbrandsResume, oscResume2];
 
 export { resumes, specialTalent, personInfo, summary };
