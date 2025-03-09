@@ -45,6 +45,10 @@
   font-size: 16px;
 }
 
+.certificates {
+    white-space: pre-wrap; /* 保留空白和换行符 */
+}
+
 #exportResume {
   position: relative;
 }
