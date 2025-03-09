@@ -1,10 +1,10 @@
 const personInfo = {
 	name: "byeyang",
-	phoneNumber: "13538774375",
+	phoneNumber: "19536382030",
 	email: "2662119796@qq.com",
 	birthday: "1998-07-13",
 	city: "广州",
-	expect: "python工程师",
+	expect: "AI工程师",
 	workTime: Math.round((new Date() - new Date("2020-12-01")) / 1000 / 60 / 60 / 24 / 365) + "年工作经验",
 	education: {
 		timestamp: "2018/09/01 - 2020/06/30",
@@ -43,7 +43,7 @@ const oscResume = {
 };
 
 const enbrandsResume = {
-		timestamp: "2020/10 - 2023/03",
+	timestamp: "2020/10 - 2023/03",
 	projectName: "CG任务系统",
 	projectDesc: "负责一个嵌入在 CG 制作软件中的 CG 任务系统的开发与维护。该系统旨在提升艺术家的工作效率，确保任务分配、审核和文件发布的顺畅进行。",
 	projectDuty: [
@@ -56,14 +56,36 @@ const enbrandsResume = {
 	technology: [
 		"Qt 开发", "Python 编程语言","Mel 语言","数据结构","算法设计"
 	],
-	company: "广州阿戴普科技有限公司（实习） ",
-	position: "大数据团队（数据研究员）",
-	business: "对接医药单位，提供技术性支持，开展创新工作",
+	company: "广州金川文化有限公司",
+	position: "Python插件开发工程师",
+	business: "动画、电影创作出品",
 	jobContent: [
-		"文献研究与数据爬取：负责推荐系统相关文献的查找与归纳，通过 Scrapy、Selenium 等工具编写爬虫程序，爬取目标网站医药数据，进行清洗、整理并入库分析；",
-		"平台搭建与算法优化：利用 Flask 框架搭建简易数据展示平台，通过 NLTK 等库优化电商文本数据分类预测算法，提升分类准确性和预测精度。"
+		"3D 制作工具开发：独立开发并维护 3D 制作流水线中的各项工具，包括系统二次开发，确保各环节数据能够顺利流通；",
+		"需求分析与实现：深入了解各环节开发中的需求和问题，完成工具的开发、测试与发布，确保满足项目需求；",
+		"流程优化与技术支持：根据项目开发中的变化，维护系统流程、适配规范，为制作开发的流程和规范提供技术性支持。"	
 	],
-	achievement: "完成各项数据收集和分析问题。"
+	achievement: "负责CG任务系统的新功能开发，优化调整，修复BUG修复流程缺陷，确保项目高效完成。"
+};
+
+const oscResume2 = {
+	timestamp: "2024/04 - 2025/03",
+	projectName: "全过程跨域数据共享平台",
+	projectDesc: "通过良好的分层设计及开箱即用的隐私保护数据分析及机器学习等功能，降低隐私计算开发者和使用者的技术门槛，助力隐私计算更广泛应用到 AI、数据分析等场景中，解决隐私保护和数据孤岛等行业痛点。",
+	projectDuty: [
+		"技术问题攻克：通过专业知识和经验，成功解决了多个项目开发中的技术问题，为项目的顺利进行提供了有力保障;",
+		"环境搭建与优化：成功搭建了稳定、高效的开发环境，并对开发流程进行了优化，提高了开发效率和质量。"
+	],
+	technology: [
+		"Python 编程语言","linux 平台","docker 容器技术"
+	],
+	company: "深圳市华汇数据服务有限公司",
+	position: "研发部（隐私计算工程师）",
+	business: "政府合作、运维服务",
+	jobContent: [
+		"开源项目部署与研究：负责隐语平台的部署、脚本开发、编译工作，并深入研究平台的各个环节技术，确保平台的稳定运行和高效性能;",
+		"二次开发支持：积极配合二次开发团队，进行环境配置、可行性分析以及流程研究，确保开发工作的顺利进行和项目的成功交付。"	
+	],
+	achievement: "负责隐私计算开源引擎研究，部署搭建，确保项目顺利交付。"
 };
 
 
@@ -81,12 +103,12 @@ const specialTalent = [
 		percentage: 100, status: 'success', text: '自然语言处理：了解 NLP 基本原理和常用技术，如文本分类、情感分析、命名实体识别等，具备相关项目实践经验;',
 	},
 	{
-		percentage: 100, status: 'success', text: '软件开发与工具：熟练使用 Git 进行版本控制，熟悉 Linux 操作系统，能够使用 Docker 进行容器化部署。',
+		percentage: 100, status: 'success', text: '软件开发与工具：熟练使用 Git 进行版本控制，熟悉 Linux 操作系统，熟悉使用 Docker 容器化部署。',
 	},
 ];
 
 const summary = "致力AI方向发展";
 
-const resumes = [oscResume, enbrandsResume];
+const resumes = [oscResume, enbrandsResume，oscResume2];
 
 export { resumes, specialTalent, personInfo, summary };
