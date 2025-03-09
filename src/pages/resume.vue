@@ -61,7 +61,15 @@
         <h4>工作经历</h4>
       </el-divider>
       <el-timeline>
-        <el-timeline-item :index='resume' v-for="(resume,index) in resumeData.resumes" :key="index" :name="resume" placement="top" :timestamp="resume.timestamp">
+        <el-timeline-item
+      v-if="resume.achievement" 
+      :index='resume'
+      v-for="(resume, index) in resumeData.resumes"
+      :key="index"
+      :name="resume"
+      placement="top"
+      :timestamp="resume.timestamp"
+    >
         <el-card>
             <h4>{{resume.company}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{resume.position}}</h4>
             <p>
