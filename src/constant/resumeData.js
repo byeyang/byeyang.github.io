@@ -79,7 +79,7 @@ const oscResume2 = {
 		"Python 编程语言","linux 平台","docker 容器技术"
 	],
 	company: "深圳市华汇数据服务有限公司",
-	position: "研发部（隐私计算工程师）",
+	position: "研发部 隐私计算工程师 ",
 	business: "政府合作、运维服务",
 	jobContent: [
 		"开源项目部署与研究：负责隐语平台的部署、脚本开发、编译工作，并深入研究平台的各个环节技术，确保平台的稳定运行和高效性能;",
