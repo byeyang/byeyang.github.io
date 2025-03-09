@@ -12,8 +12,8 @@ const personInfo = {
 		specialty: "网络工程（大数据方向）",
 		level: "全日制本科",
 		certificates:`1、院校级一等奖学金; 
-			      2、担任校外实践校园合伙人、班级委员、电影协会外联部长、计算机协会干事; 
-			      3、具备较扎实专业知识(Python，Scrapy爬虫框架，ETL工具Kettle、机器学习、数据挖掘、NLP等)`
+		2、担任校外实践校园合伙人、班级委员、电影协会外联部长、计算机协会干事; 
+		3、具备较扎实专业知识(Python，Scrapy爬虫框架，ETL工具Kettle、机器学习、数据挖掘、NLP等)`
 	}
 };
 
