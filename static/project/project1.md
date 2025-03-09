@@ -1,5 +1,6 @@
 成品展示：
-![Uploading 444472ff1e7846b81c1ce519b127dcf.png…]()
+<img width="663" alt="444472ff1e7846b81c1ce519b127dcf" src="https://github.com/user-attachments/assets/7e13aa4d-12f1-4189-8f16-655ae9d6ab50" />
+
 
 
 web地址：（服务器运行中） http://8.134.124.206:8080/
