@@ -128,7 +128,8 @@
           <el-card>
             <h4>{{resumeData.personInfo.education.university}} - {{resumeData.personInfo.education.specialty}} - {{resumeData.personInfo.education.level}}</h4>
             <p>
-              <p>{{resumeData.personInfo.education.certificates}}</p>
+              <!-- <p>{{resumeData.personInfo.education.certificates}}</p> -->
+              <div class="certificates">{{resumeData.personInfo.education.certificates}}</div>
             </p>
           </el-card>
         </el-timeline-item>
