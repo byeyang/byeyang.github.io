@@ -1,4 +1,6 @@
-成品展示：![image](https://github.com/user-attachments/assets/40a4dbe2-1ce6-4c8b-8d75-e8aacad9f6fa)
+成品展示：
+![Uploading 444472ff1e7846b81c1ce519b127dcf.png…]()
+
 
 web地址：（服务器运行中） http://8.134.124.206:8080/
 
