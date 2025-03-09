@@ -1,3 +1,5 @@
 成品展示：![image](https://github.com/user-attachments/assets/40a4dbe2-1ce6-4c8b-8d75-e8aacad9f6fa)
+
 web地址：（服务器运行中） http://8.134.124.206:8080/
+
 项目介绍：使用大型语言模型，创建聊天AI。使用服务器上部署的模型，非API方式，服务器配置局限，目前切换到简单模型，回答有限。
