@@ -55,16 +55,7 @@ const enbrandsResume = {
 	],
 	technology: [
 		"Qt 开发", "Python 编程语言","Mel 语言","数据结构","算法设计"
-	],
-	company: "广州金川文化有限公司",
-	position: "Python插件开发工程师",
-	business: "动画、电影创作出品",
-	jobContent: [
-		"3D 制作工具开发：独立开发并维护 3D 制作流水线中的各项工具，包括系统二次开发，确保各环节数据能够顺利流通；",
-		"需求分析与实现：深入了解各环节开发中的需求和问题，完成工具的开发、测试与发布，确保满足项目需求；",
-		"流程优化与技术支持：根据项目开发中的变化，维护系统流程、适配规范，为制作开发的流程和规范提供技术性支持。"	
-	],
-	achievement: "负责CG任务系统的新功能开发，优化调整，修复BUG修复流程缺陷，确保项目高效完成。"
+	]
 };
 
 const oscResume2 = {
@@ -109,6 +100,6 @@ const specialTalent = [
 
 const summary = "致力AI方向发展";
 
-const resumes = [oscResume, enbrandsResume, oscResume2];
+const resumes = [oscResume2, enbrandsResume, oscResume];
 
 export { resumes, specialTalent, personInfo, summary };
